@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>VBL PC</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1e301a6c30.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="section-light">
+    <div class="container-fluid nav-container">
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <a class="navbar-brand" href="index">
+          <img src="images/logo-nopadding.png" class="d-inline-block align-top navbar-brand-logo" alt="">
+          <div class="navbar-brand-text">
+            <h3 class="navbar-brand-title">VBL PC</h3>
+            <h4 class="navbar-brand-subtitle">Dépannage Informatique</h4>
+          </div>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item border-right active">
+              <a class="nav-link" href="#header">Accueil<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item border-right">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#find-us">Nous trouver</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+  <section class="section-light">
+    <div class="container-fluid home-container">
+      <div id="carousel-container" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-xl-8 carousel-text my-auto">
+                <h1 class="carousel-title">Nettoyage</h1>
+                <h2 class="carousel-subtitle">de votre ordinateur</h2>
+              </div>
+              <div class="col-xl-4 carousel-img my-auto">
+                <img class="carousel-img-background" src="images/bubble.png" alt="bubble">
+                <div class="carousel-img-text">
+                  <i class="fas fa-check carousel-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-xl-8 carousel-text my-auto">
+                <h1 class="carousel-title">Sauvegarde</h1>
+                <h2 class="carousel-subtitle">et récupération de vos données</h2>
+              </div>
+              <div class="col-xl-4 carousel-img my-auto">
+                <img class="carousel-img-background" src="images/bubble.png" alt="bubble">
+                <div class="carousel-img-text">
+                  <i class="far fa-save carousel-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-xl-8 carousel-text my-auto">
+                <h1 class="carousel-title">Assistance</h1>
+                <h2 class="carousel-subtitle">sur Windows & MacOS</h2>
+              </div>
+              <div class="col-xl-4 carousel-img my-auto">
+                <img class="carousel-img-background" src="images/bubble.png" alt="bubble">
+                <div class="carousel-img-text">
+                  <i class="fas fa-question carousel-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-container" role="button" data-slide="prev">
+          <i class="fas fa-angle-left fa-3x carousel-icon" aria-hidden="true"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-container" role="button" data-slide="next">
+          <i class="fas fa-angle-right fa-3x carousel-icon" aria-hidden="true"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services section-dark">
+    <div class="container-fluid">
+      <div class="row service-row">
+        <div class="col-xl-4 service">
+          <i class="fas fa-ambulance service-icon"></i>
+          <h2 class="service-title">Dépannage</h2>
+          <p class="service-desc">Votre ordinateur est lent ou ne s'allume plus ? Nous assurons le nettoyage de systèmes corrompus et programmes malveillants.</p>
+        </div>
+        <div class="col-xl-4 service">
+          <i class="fas fa-laptop service-icon"></i>
+          <h2 class="service-title">Réparation</h2>
+          <p class="service-desc">Nous nettoyons les composants de votre ordinateur et pouvons vous aider à les remplacer si besoin : choix, achat et réassemblage.</p>
+        </div>
+        <div class="col-xl-4 service">
+          <i class="fas fa-hands-helping service-icon"></i>
+          <h2 class="service-title">Assistance</h2>
+          <p class="service-desc">Une question ? Nous vous assistons dans l'installation d'un logiciel, antivirus ou nouveau système d'exploitation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6">
+          <h1 class="section-heading">Contact</h1>
+          <h3 class="contact-subtitle">Appelez-nous au</h3>
+          <h2 class="contact-title"><i class="fas fa-phone-alt fa-1x contact-phone-icon"></i> 06 46 66 24 78</h2>
+          <hr class="contact-hr" />
+          <h3 class="contact-subtitle">ou envoyez un mail à</h3>
+          <h2 class="contact-title">vblpc.frederic@gmail.com</h2>
+        </div>
+        <div class="col-xl-6">
+          <img class="contact-img" src="images/papa2.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="find-us" class="find-us section-dark">
+    <div class="container-fluid">
+      <h1 class="section-heading">Nous trouver</h1>
+      <iframe class="find-us-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.5786365525228!2d-1.3715746841969323!3d46.91100464376125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805d6b76d5c14ad%3A0x7e12318e56a5e54!2sVBL%20PC!5e0!3m2!1sfr!2sfr!4v1586714346218!5m2!1sfr!2sfr"
+        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </section>
+
+  <footer class="section-light">
+    <div class="container-fluid">
+      <ul class="footer-list">
+        <li class="footer-list-item border-right">Copyright VBL PC &copy; Tous droits réservés.</li>
+        <li class="footer-list-item border-right"><a href="https://www.facebook.com/vblpc85/"><i class="fab fa-facebook-square fa-1x"></i></a></li>
+        <li class="footer-list-item"><a class="text-dark" href="about">Mentions Légales</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div id="cookie-consent" class="cookie-consent fixed-bottom">
+    <div class="container text-center">
+      En poursuivant votre navigation sur ce site, vous acceptez l'utilisation des cookies. <a href="https://www.cnil.fr/fr/cookies-et-autres-traceurs">En savoir plus</a>
+      <button class="btn btn-success cookie-consent-button" onclick="acceptCookies()">J'accepte</button>
+    </div>
+  </div>
+
+  <!-- Cookies -->
+  <script src="cookies.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
