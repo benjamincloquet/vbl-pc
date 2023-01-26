@@ -354,4 +354,28 @@ body {
 
 .about {
   margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.about-p {
+  line-height: 1.6;
+  text-align: left;
+
+}
+
+.about-title {
+  text-align: left;
+}
+
+div.cgv {
+  text-align: left;
+}
+
+h3.cgv {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2.cgv {
+  margin-bottom: 2.5rem;
 }
