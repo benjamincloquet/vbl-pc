@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
 @tailwind utilities;
+
+@theme {
+  --color-custom-grey: #313131;
+  --color-custom-grey-alt: #383838;
+  --color-custom-orange: #f8a800;
+  --color-custom-white: #fefefe;
+  --color-custom-white-alt: #cccccc;
+}
